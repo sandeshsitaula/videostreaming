@@ -22,3 +22,6 @@ rtmp://localhost:1935/primary
 The stream key is very important and u can name it anything you want for testing purposes name it demo because the url in the frontend will only for demo streamkey.
 
 Then you can start streaming in obs studio and can access localhost:5000 in browser and u can see the stream directly from browser.
+
+For testing purposes u can cancel the stream in obs while letting the stream in browser run and quickly change the streamurl from primary to backup.
+Then u can access the browser again which after some time access the backup stream
